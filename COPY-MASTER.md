@@ -1,5 +1,11 @@
 # She's In Demand — Speaker Application Page (POINTER)
 
+## 🚀 LIVE (published Aug 4, 2026)
+
+**https://aiforher-media.github.io/shes-in-demand-speaker-page/**
+Repo: `aiforher-media/shes-in-demand-speaker-page` · GitHub Pages off `main` · **push to main = deploy**.
+Local: `Web/summit-speaker-page/` (index.html + emily.jpg).
+
 **Copy source of truth: the Summit App** — Assets → Speaker application page → current version.
 This file no longer holds the copy (one home per copy; duplicates drift).
 
