@@ -24,7 +24,7 @@ are in the `brain/voice-dna.md` Corrections Ledger.
 ## Dates (locked Aug 4 pm)
 
 Applications **open Wed Aug 5**, close **Fri Aug 21** · lineup announced **Mon Aug 24**
-· confirm spot **Mon Aug 31** · all deliverables **Mon Sept 21** (28 days after announce,
+· confirm spot **Tue Sept 1** · all deliverables **Mon Sept 21** (28 days after announce,
 Emily's floor) · promo assets to speakers **Sept 30** · registration opens **Oct 5**
 · summit **Oct 19–23**.
 
