@@ -45,7 +45,7 @@ Settings: collect emails (responder input, no forced sign-in) · response receip
 - **Speaker count is 16, not 20** (Emily, Aug 4): the original 20 included 4 who appeared only on a single panel, and "16 speakers / 1,000 attendees" is the honest, stronger pair. Applied to the stat boxes and the host bio.
 - **Cut entirely:** the "Dedicated Promotion" benefit (dedicated speaker pages, badge kits, testimonial collection). Emily: that's work she isn't doing.
 - **Free resource is now a requirement**, not "optional but recommended."
-- 40% / 50% affiliate commission stays — Her AI Era's standard terms, confirmed by Emily's own ThriveCart receipts ($26.80 = 40% of $67).
+- Flat 50% affiliate commission for all speakers (Emily, Aug 25 — simplified from the old 40/50 tier for admin simplicity).
 
 ## Open question for Emily
 
