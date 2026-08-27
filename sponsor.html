@@ -62,6 +62,26 @@ src="https://www.facebook.com/tr?id=629561073152441&ev=PageView&noscript=1"/></n
   .btn.gold { background: var(--gold); color: var(--plum); }
   .btn.gold:hover { background: var(--rosette); color: #fff; }
 
+  /* Notes & fine print */
+  .note {
+    font-size: 0.8rem; color: var(--ink-soft); border-left: 3px solid var(--gold);
+    background: rgba(255, 255, 255, 0.45); padding: 0.8rem 1rem; margin-bottom: 1.2rem;
+    line-height: 1.55;
+  }
+  .hero .note {
+    color: var(--blush); background: rgba(253, 240, 242, 0.08);
+    border: 1px solid rgba(193, 134, 89, 0.5); border-left-width: 3px;
+    max-width: 640px; margin: 1.6rem auto 0; text-align: left;
+  }
+  .cannot { list-style: none; margin-bottom: 1.2rem; }
+  .cannot li { padding-left: 1.6rem; position: relative; margin-bottom: 0.55rem; font-size: 0.9rem; color: var(--ink-soft); }
+  .cannot li::before { content: "✕"; position: absolute; left: 0; color: var(--rosette); font-weight: 700; }
+  .sched { font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 1.2rem; }
+  .closing .fine { font-size: 0.8rem; color: var(--blush); opacity: 0.85; max-width: 620px; margin: 0 auto 1rem; }
+  .closing .fine strong { color: var(--gold); }
+  .closing .signoff { margin-top: 2rem; font-size: 0.95rem; }
+  .closing .signoff .xx { font-family: 'Playfair Display', serif; font-style: italic; color: var(--gold); }
+
   /* Hero */
   .hero { background: var(--plum); color: var(--blush); text-align: center; padding: 4.5rem 0 4rem; border-bottom: 3px solid var(--gold); }
   .hero h1 { color: var(--panel); max-width: 820px; margin: 0 auto; }
@@ -139,7 +159,8 @@ src="https://www.facebook.com/tr?id=629561073152441&ev=PageView&noscript=1"/></n
     <p class="body">These packages are for speakers who want premium placement: Day 1 top billing, featured in the emails attendees open, and visibility that compounds long after summit week.</p>
     <p class="body">The speakers who walk away with hundreds of new leads? They showed up where attention was highest.</p>
     <p class="body">If that's you, keep reading.</p>
-    <a class="btn" href="#packages" onclick="fbq('track','Lead')">See the Packages</a>
+    <p class="note"><strong>Important note:</strong> Sponsor packages are optional upgrades that provide premium visibility in addition to your standard speaker benefits. All speakers (free and sponsored) are required to complete the promotional requirements outlined in the Speaker Agreement (2 dedicated emails to your list + 1 social post during the Oct 5&ndash;19 promo window). Sponsor packages do not replace or reduce these requirements.</p>
+    <a class="btn" href="#packages" onclick="fbq('track','Lead')" style="margin-top:1.8rem;">See the Packages</a>
   </div>
 </header>
 
@@ -154,11 +175,11 @@ src="https://www.facebook.com/tr?id=629561073152441&ev=PageView&noscript=1"/></n
           <p class="popular">Best Value</p>
           <p class="badge">Only 4 Spots</p>
           <h3 id="pkg-monday">Own Day 1</h3>
-          <p class="sub">Top billing on Monday: the day everyone shows up ready to engage.</p>
+          <p class="sub">Guaranteed top billing on Monday: the day everyone shows up ready to engage.</p>
           <ul>
             <li><strong>Top of the Monday lineup:</strong> first speaker attendees see when they log in</li>
-            <li><strong>Featured in Monday morning email:</strong> your headshot, session, and freebie sent at 8am PT</li>
-            <li><strong>Featured in Monday evening recap:</strong> pull quote from your session, sent at 6pm PT</li>
+            <li><strong>Featured in Monday morning email:</strong> your headshot, session, and freebie sent to thousands of attendees at 8am PT</li>
+            <li><strong>Featured in Monday evening recap:</strong> pull quote from your session, sent to thousands of attendees at 6pm PT</li>
             <li><strong>Featured Speaker badge:</strong> visual distinction on all pages</li>
             <li><strong>Logo in summit footer:</strong> stays live through 2027</li>
             <li><strong>Bonus promo in VIP sales email:</strong> your offer mentioned to VIP buyers post-summit</li>
@@ -166,6 +187,7 @@ src="https://www.facebook.com/tr?id=629561073152441&ev=PageView&noscript=1"/></n
           </ul>
           <p class="why-label">Why Monday matters</p>
           <p class="why">Highest traffic. Highest engagement. Most attendees watching live. Being the first speaker they see puts you in front of the most ready-to-act audience in the room.</p>
+          <p class="note"><strong>Note:</strong> Premium Monday Placement is designed to build your visibility and drive traffic to your free resource. It does not include promotion of your VIP Pass affiliate link or paid offers. Your affiliate link is available for use in your required speaker promo (2 emails + 1 social post), not in sponsor package placements.</p>
           <p class="avail">4 spots. First-come, first-served.</p>
           <p class="price">$997</p>
           <p class="cta-row"><a class="btn" href="https://buy.stripe.com/eVq3cv74D77i4m07gI2ZO0c" onclick="fbq('track','Lead')">Claim Monday: $997</a></p>
@@ -177,20 +199,23 @@ src="https://www.facebook.com/tr?id=629561073152441&ev=PageView&noscript=1"/></n
           <h3 id="pkg-daily">Get Featured Twice</h3>
           <p class="sub">Morning email + evening recap. Two chances to stand out on your theme day.</p>
           <ul>
-            <li><strong>Featured in morning "What's On Today" email:</strong> 8am PT, your headshot + session + freebie</li>
-            <li><strong>Featured in evening "Daily Recap" email:</strong> 6pm PT, pull quote from your session + rewatch link</li>
+            <li><strong>Featured in morning "What's On Today" email:</strong> 8am PT, your headshot + session + freebie sent to thousands of attendees</li>
+            <li><strong>Featured in evening "Daily Recap" email:</strong> 6pm PT, pull quote from your session + rewatch link sent to thousands of attendees</li>
             <li><strong>Featured Speaker badge:</strong> visual distinction on your page</li>
           </ul>
-          <p class="days-label">The theme days</p>
+          <p class="days-label">Scheduling</p>
+          <p class="sched">You'll be assigned to one of the following theme days based on your session topic:</p>
           <ul class="days">
             <li>Tuesday: Visibility Plays That Compound</li>
             <li>Wednesday: Content &amp; Conversion Systems</li>
             <li>Thursday: Paid Visibility &amp; Ads</li>
             <li>Friday: Systems &amp; Scale</li>
           </ul>
+          <p class="sched">Final day assignment is at the host's discretion to ensure the best fit for your content and the overall summit flow. You may indicate a preference at checkout, but assignment is not guaranteed to match your preference.</p>
           <p class="why-label">Why this works</p>
           <p class="why">Attendees pick a few sessions per day. Being featured in both emails means you're one of them. Two email touchpoints for $197.</p>
-          <p class="avail">16 spots (4 per day). You're featured on the day you speak.</p>
+          <p class="note"><strong>Note:</strong> Daily Featured placements highlight your session and free resource. They do not include promotion of your VIP Pass affiliate link or paid offers.</p>
+          <p class="avail">16 spots (4 per day).</p>
           <p class="price">$197</p>
           <p class="cta-row"><a class="btn ghost" href="https://buy.stripe.com/9B69ATfB9gHS4m07gI2ZO0a" onclick="fbq('track','Lead')">Get Featured: $197</a></p>
         </article>
@@ -199,13 +224,30 @@ src="https://www.facebook.com/tr?id=629561073152441&ev=PageView&noscript=1"/></n
         <article class="card" aria-labelledby="pkg-solo">
           <p class="badge">5 Spots (1 Per Day, Mon&ndash;Fri)</p>
           <h3 id="pkg-solo">Own the Inbox</h3>
-          <p class="sub">One email. Just you.</p>
+          <p class="sub">One dedicated email. Just you.</p>
           <ul>
-            <li><strong>Dedicated solo email</strong> sent to the full attendee list on the day you speak</li>
-            <li><strong>You write the copy</strong> (we edit, send under Emily's name)</li>
-            <li><strong>Sent at 2&ndash;3pm PT:</strong> between morning and evening emails</li>
+            <li><strong>Dedicated solo email</strong> sent to thousands of attendees</li>
+            <li><strong>You write the copy</strong> (we edit for flow and brand voice, send under Emily's name)</li>
+            <li><strong>Sent at 2&ndash;3pm PT:</strong> between the morning agenda and evening recap</li>
             <li><strong>Available to any speaker:</strong> buy standalone or stack with other packages</li>
           </ul>
+          <p class="days-label">What you can promote</p>
+          <ul>
+            <li>Your free resource or lead magnet</li>
+            <li>Your summit session (invite attendees to watch or rewatch)</li>
+            <li>Your story, approach, or expertise (soft connection-building)</li>
+            <li>An invitation to a free webinar, workshop, or challenge</li>
+          </ul>
+          <p class="days-label">Your solo email may not</p>
+          <ul class="cannot">
+            <li>Promote a paid offer (course, program, coaching, product, or service)</li>
+            <li>Include your VIP Pass affiliate link or ask attendees to upgrade</li>
+            <li>Direct to a sales page or checkout</li>
+            <li>Announce a launch or limited-time paid offer</li>
+          </ul>
+          <p class="sched">Think: visibility and list-building, not selling. The goal is to deepen connection and drive traffic to your free resource, not to close a sale in the email.</p>
+          <p class="days-label">Scheduling</p>
+          <p class="sched">Send day is assigned by the host based on summit email flow and strategy. If you purchase Premium Monday Placement, your solo email (if purchased) will be sent on Monday. For all other packages, the host will assign your send day to optimize visibility and avoid inbox overload. You may indicate a preference, but the final schedule is at the host's discretion.</p>
           <p class="days-label">Stack it</p>
           <ul class="days">
             <li>Premium Monday + Solo Email = $1,494 (own Day 1 + own the inbox)</li>
@@ -230,7 +272,10 @@ src="https://www.facebook.com/tr?id=629561073152441&ev=PageView&noscript=1"/></n
       <span>Solo Email: 5 spots.</span>
     </p>
     <p class="gone">When they're gone, they're gone.</p>
-    <a class="btn gold" href="#packages" onclick="fbq('track','Lead')">Choose Your Package</a>
+    <p class="fine"><strong>Important:</strong> Sponsor packages provide premium placement and visibility. They do not guarantee specific attendance numbers, email open rates, leads, sales, or affiliate commissions. Results depend on the quality of your content, your promotional efforts, and attendee engagement.</p>
+    <p class="fine"><strong>Refund policy:</strong> Full refund available if you withdraw from the summit lineup in writing by September 21, 2026. After September 21, all sponsor package sales are final. See full Terms of Service for details.</p>
+    <a class="btn gold" href="#packages" onclick="fbq('track','Lead')" style="margin-top:1rem;">Choose Your Package</a>
+    <p class="signoff">Questions? Reply to your acceptance email.<br><span class="xx">xx Emily</span></p>
   </div>
 </section>
 
