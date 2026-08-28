@@ -81,7 +81,13 @@ src="https://www.facebook.com/tr?id=629561073152441&ev=PageView&noscript=1"/></n
   .closing .fine strong { color: var(--gold); }
 
   /* Hero */
-  .hero { background: var(--plum); color: var(--blush); text-align: center; padding: 4.5rem 0 4rem; border-bottom: 3px solid var(--gold); }
+  .hero {
+    background:
+      linear-gradient(rgba(46, 10, 36, 0.74), rgba(46, 10, 36, 0.82)),
+      url('hero-bg.jpg') center 28% / cover no-repeat;
+    background-color: var(--plum);
+    color: var(--blush); text-align: center; padding: 4.5rem 0 4rem; border-bottom: 3px solid var(--gold);
+  }
   .hero .eyebrow { text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; font-size: 0.85rem; color: var(--gold); margin-bottom: 0.4rem; }
   .hero .dates { text-transform: uppercase; letter-spacing: 0.12em; font-weight: 600; font-size: 0.8rem; color: var(--blush); margin-bottom: 1.8rem; }
   .hero h1 { color: var(--panel); max-width: 820px; margin: 0 auto; }
